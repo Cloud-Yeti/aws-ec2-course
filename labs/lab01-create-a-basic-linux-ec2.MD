@@ -6,11 +6,11 @@
 - Click on Launch Instance
 - Choose Amazon Linux AMI
 - Choose EC2 Instance Type of t2.micro
-- Configure Instance
+- Configure Instance Details
   - There are many parameters  we can configure  but for this lab, we will leave them default. 
-- Click Add Storage
+- Click "Next:Add Storage , we leave it default
 - Click "Next: Add Tags" and Tag Instance
-- Configure Security Group
+- Configure Security Group, either create a new security group or select an existing one
 - Click Review and Launch Instance
 - Create a Key Pair, download it  , check the I Acknowledge box and Launch Instance.
 
