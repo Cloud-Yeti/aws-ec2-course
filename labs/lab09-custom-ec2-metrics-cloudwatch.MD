@@ -2,10 +2,10 @@
 
 In the last lab we configured the cloudwatch Unified agent. Now let's look at the metrics collected by the agent. 
 
-Remember: RAM/Memory metrics are not collected by Cloudwatch. Cloudwatch agent enables us to collect those metrics not collected by default.\
+Remember: RAM/Memory metrics are not collected by Cloudwatch by default. Cloudwatch agent enables us to collect those metrics not collected by default.
 
 
-In the config wizard we selected to collect Metrics like Ram etc.\
+In the config wizard we selected to collect Metrics like Ram etc.
 
 
 ## Steps
@@ -28,7 +28,7 @@ In the config wizard we selected to collect Metrics like Ram etc.\
 
 6) Congratulations! you just collected and graphed EC2 Custom metrics using the Cloudwatch Unified Agent
 
-7) Now let's add another custom metric by changing the config file:
+
 
 
 
