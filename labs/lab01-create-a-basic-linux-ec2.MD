@@ -14,7 +14,7 @@
 - Click Review and Launch Instance
 - Create a Key Pair, download it  , check the I Acknowledge box and Launch Instance.
 
-Your instance will now launch. 
+Your instance will now launched.
 
 - Click on View Instance or go back to EC2 dashboard and select the Instance. 
 - Click Connect
