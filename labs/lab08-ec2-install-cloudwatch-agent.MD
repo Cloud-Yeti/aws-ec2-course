@@ -1,10 +1,9 @@
 ## Lab 8 : Cloudwatch unified agent. Custom Metrics and Instance Logs on Amazon Linux AMI
-https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
 
-1)  First of all create requiredIAM roles for the EC2 instances
-  - In the list of policies while creating IAM Role for EC2 Instance, select the check box next to CloudWatchAgentServerPolicy. Use the search box to find the policy, if necessary.
+1)  First of all create required IAM roles for the EC2 instances to be able to send metrics to cloudwatch
+  - In the list of policies while creating IAM Role for EC2 Instance, select the check box next to **CloudWatchAgentServerPolicy**. Use the search box to find the policy, if necessary.
   
-2) Launch an EC2 instance with port 80 and 22 open.
+2) Launch an EC2 instance with port 80 and 22 open in the security group. 
 
 3) SSH into the instance 
 
@@ -28,8 +27,7 @@ sudo rpm -U ./amazon-cloudwatch-agent.rpm
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 ```
 
-Choose all the default option except don't install statd and collectd. And for the log file to monitor select /var/log/httpd/access_log
-
+Choose all the default option except don't install statd and collectd. Select **NO** when asked if you want to monitor log files. 
 
 8) Start the agent .
 
@@ -41,3 +39,7 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-c
 9) You should be set! We'll explore the collected Logs and Metrics individually in the next labs.\ 
 
 [Click here](lab09-custom-ec2-metrics-cloudwatch.MD) to go to the next lab: Lab 09
+
+## Reference 
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
+
