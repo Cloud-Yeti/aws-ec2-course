@@ -1,4 +1,4 @@
-## Lab1-create-a-basic-ec2-and-ssh
+## Lab01
 
 - Login to AWS console 
 - From the top Navigation Bar/menu Click Services 
