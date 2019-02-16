@@ -4,7 +4,7 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.h
 1)  First of all create requiredIAM roles for the EC2 instances
   - In the list of policies while creating IAM Role for EC2 Instance, select the check box next to CloudWatchAgentServerPolicy. Use the search box to find the policy, if necessary.
   
-2) Launch an EC2 instance like in [lab 03](lab03-web-server-and-golden-image.MD) and install and start apache web server
+2) Launch an EC2 instance with port 80 and 22 open.
 
 3) SSH into the instance 
 
