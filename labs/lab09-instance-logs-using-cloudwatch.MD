@@ -1,4 +1,4 @@
-## Lab 10: Send Apache web server logs to cloudwatch
+## Lab 9: Send Apache web server logs to cloudwatch
 
 In the last 2 labs ( 8 and 9) we first installed cloudwatch unified agent and set up custom metrics and viewed custom metrics on the AWS Management console.
 
