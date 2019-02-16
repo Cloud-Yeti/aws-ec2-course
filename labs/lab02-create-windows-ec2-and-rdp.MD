@@ -8,7 +8,7 @@
 - Choose EC2 Instance Type of t2.micro
 - Configure Instance
   - There are many parameters  we can configure  but for this lab, we will leave them default. 
-- Click Add Storage
+- Click "Next:Add Storage" leave it default
 - Click "Next: Add Tags" and Tag Instance
 - Configure Security Group
 - Click Review and Launch Instance
