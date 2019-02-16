@@ -1,2 +1,2 @@
-# aws-ec2-course
-20 Must know things and 10 must do labs for beginners
+# AWS EC2 Must know 20 Facts and 10 Must do LABS
+This is the repo for our course on Udemy. Click here to buy the course. 
