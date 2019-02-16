@@ -1,6 +1,6 @@
 
 
-Lab 04 :
+Lab 05 :
 
 **Use Amazon Linux  AMI* to launch an EC2 instance with port 22 open
 
@@ -11,18 +11,18 @@ Lab 04 :
 aws ec2 run-instance --image-id abcdefg123 --instance-type t2.micro
 ```
 
-2) Describe
+2) List instance details
 ```console
 aws ec2 describe-instances
 ```
 
-3) Describe and query specific things
+3) Describe and query specific things( List specific attributes)
 
 ```console
 
 ```
 
-4) Describe and filter
+4) Describe and filter( use of filter switch )
 
 ```console
 ```
