@@ -1,6 +1,6 @@
 ## lab10: Send logs to cloudwatch
 
-In the last 2 labs ( 8 and 9) we first installed cloudwatch unified agent and set up custom metrics and viewed custom metrics on the AWS Management console.\
+In the last 2 labs ( 8 and 9) we first installed cloudwatch unified agent and set up custom metrics and viewed custom metrics on the AWS Management console.
 
 In this lab we will send our apache httpd logs to cloudwatch and check our logs from the AWS Managemenet Console. 
 
@@ -52,5 +52,5 @@ You should see logs from your web server now.
 ![image](https://user-images.githubusercontent.com/22568316/51448221-f9caed80-1cf2-11e9-8412-630bb2b89f75.png)
 
 
-Now you can collect any logs from your Linux machines. 
+Congratulations!! Now you can collect any kind of logs from your Linux machines. 
 
