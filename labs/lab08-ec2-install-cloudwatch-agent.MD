@@ -24,7 +24,7 @@ sudo rpm -U ./amazon-cloudwatch-agent.rpm
 
 7) Configure the Cloudwatch agent with the help of a setup wizard: 
 
-```
+```console
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 ```
 
@@ -34,8 +34,10 @@ Choose all the default option except don't install statd and collectd. And for t
 8) Start the agent .
 
 
-```
+```console
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
 ```
 
-9) You should be set! We'll explore the collected Logs and Metrics individually in the next labs
+9) You should be set! We'll explore the collected Logs and Metrics individually in the next labs.\ 
+
+[Click here](lab09-custom-ec2-metrics-cloudwatch.MD) to go to the next lab: Lab 09
