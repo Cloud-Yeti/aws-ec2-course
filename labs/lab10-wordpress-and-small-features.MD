@@ -1,4 +1,4 @@
-## Lab 5 : Setting Up WordPress on Amazon EC2 and using small EC2 features
+## Lab 10: Setting Up WordPress on Amazon EC2 and using small EC2 features
 
 
 - From the Amazon EC2 dashboard, choose Launch Instance.
