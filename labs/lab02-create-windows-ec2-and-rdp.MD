@@ -1,4 +1,4 @@
-## Lab02-create-a-basic-ec2-and-RDP
+## Lab02 create a windows ec2 and login with rdp
 
 - Login to AWS console 
 - From the top Navigation Bar/menu Click Services 
