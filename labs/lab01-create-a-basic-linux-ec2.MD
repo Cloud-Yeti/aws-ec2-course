@@ -22,7 +22,8 @@ Your instance will now launch.
 
 
 If your're on Windows, 
-- Download the ssh client for windows
+- Download the ssh client for windows https://git-scm.com/downloads 
+- Then you can open the git bash terminal to use ssh tool for logging in to your EC2
 
 
 If you're on Linux/Mac ssh client is already there
