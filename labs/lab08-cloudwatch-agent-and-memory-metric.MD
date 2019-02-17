@@ -1,4 +1,4 @@
-## Lab 8 : Install Cloudwatch unified agent on EC2 instance. Gather Custom Metrics and Instance Logs using Amazon Linux AMI
+## Lab 8 : Install Cloudwatch unified agent on EC2 instance. Gather Custom Metrics using Amazon Linux AMI
 
 1)  First of all create required IAM roles for the EC2 instances to be able to send metrics to cloudwatch
   - In the list of policies while creating IAM Role for EC2 Instance, select the check box next to **CloudWatchAgentServerPolicy**. Use the search box to find the policy, if necessary.
