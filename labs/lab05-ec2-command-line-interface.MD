@@ -45,13 +45,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].PublicIpAddress' 
 aws ec2 stop-instances --instance-ids i-0b20d7680fa0e6ba0
 ```
 
-7) Create an Image(AMI) of an EC2 instance
-```console
-aws ec2 create-image --instance-id i-1234567890abcdef0 --name "My AMI" --description "An AMI for my server"
-```
 
-
-8) Terminate EC2
+7) Terminate EC2
 
 ```console
 aws ec2 terminate-instances --instance-ids i-0b20d7680fa0e6ba0
