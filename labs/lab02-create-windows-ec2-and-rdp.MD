@@ -18,5 +18,12 @@ Your instance will now launch.
 
 - Click Connect
 - Decrypt Password by supplying the key pair
-- Use Microsoft Remote desktop to login.
+- Use Microsoft Remote desktop to login. If you download RDP file from the EC2 instance, it's going to be easier to Connect
+![image](https://user-images.githubusercontent.com/22568316/52907912-3843c180-3239-11e9-8b4a-8b36857b2f48.png)
+- Congratultions EC2 Windows instance should ask you username and password which you can type and login to the instance. 
+
+
+
+## Cleanup
+Terminate the EC2 instance after the lab
 
