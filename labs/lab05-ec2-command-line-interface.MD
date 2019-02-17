@@ -1,44 +1,57 @@
 
 
-Lab 05 :
+Lab 05 : AWS EC2 Command Line Interface commands 
 
 **Use Amazon Linux  AMI* to launch an EC2 instance with port 22 open
+**Make a note of AMI ID in your region**
+Make
 
-
-
-1) Launch EC2
+1) Create an EC2 instance with the CLI:
 ```console
-aws ec2 run-instance --image-id abcdefg123 --instance-type t2.micro
+aws ec2 run-instances --image-id ami-8c1be5f6 --instance-type t2.micro 
 ```
 
-2) List instance details
+2) Let's launch another instance with Windows AMI
+
+```console
+aws ec2 run-instances --image-id ami-07a29e78aeb420471 --instance-type t2.micro 
+```
+
+
+3) List all the instance and their details. 
 ```console
 aws ec2 describe-instances
 ```
 
-3) Describe and query specific things( List specific attributes)
+4) Describe and query specific things( List specific attributes). Let's query IP of all the instances.
 
 ```console
+ aws ec2 describe-instances --query 'Reservations[].Instances[].PublicIpAddress'
+
 
 ```
 
-4) Describe and filter( use of filter switch )
+5) Describe and filter to show only windows Instance( use of filter switch )
 
 ```console
+aws ec2 describe-instances --query 'Reservations[].Instances[].PublicIpAddress' --filters "Name=platform,Values=windows"
+
 ```
 
-5) Stop EC2
+6) Stop EC2
 
 
 ```console
+aws ec2 stop-instances --instance-ids i-0b20d7680fa0e6ba0
 ```
 
-6) Terminate EC2
+7) Terminate EC2
 
 ```console
+aws ec2 terminate-instances --instance-ids i-0b20d7680fa0e6ba0
 ```
 
-7) Create an Image of an EC2
+8) Create an Image of an EC2
 ```console
 ```
 
