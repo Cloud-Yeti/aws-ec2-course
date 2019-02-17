@@ -16,7 +16,7 @@ sudo service httpd start
 
 - Enable HTTPD server on startup
 ```console
-systemctl enable httpd
+sudo chkconfig httpd on
 
 ```
 - Go to the EC2 Dashboard and Select the instance. 
