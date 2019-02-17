@@ -27,6 +27,10 @@ sudo chkconfig httpd on
 
 - You should see the Apache Web Server Welcome Web Page
 
+- Become the root user
+```console
+sudo su - 
+```
 - Create a simple custom index.html page and put it on /var/www/html . This directory is the default directory where Apache webserver will look for index.html file. 
 ```console
 echo "Hello. This page is hosted on my AWS EC2 Linux Instance.">/var/www/html/index.html
