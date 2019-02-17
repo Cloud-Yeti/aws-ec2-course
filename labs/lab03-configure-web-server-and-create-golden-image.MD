@@ -1,6 +1,7 @@
 ## Lab 3 : Install the Apache web server in EC2 instance and create a golden image from it
 
-- SSH into your EC2 instance we created in Lab 1
+- Launch an Amazon Linux EC2 Instance and SSH into it like we did in Lab 1 
+
 
 - Install the Apache web server
 
