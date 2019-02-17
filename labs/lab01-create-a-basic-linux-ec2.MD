@@ -1,4 +1,4 @@
-## Lab01
+## Lab01 Configure and Launch a simple Linux EC2 instance
 
 - Login to AWS console 
 - From the top Navigation Bar/menu Click Services 
