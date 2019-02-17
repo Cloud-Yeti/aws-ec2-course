@@ -41,7 +41,7 @@ ssh ec2-user@your-instance-up.address
 
 
 ---
-## Steps to enable password authentication and set password for first login on EC2
+## Part 2: Steps to enable password authentication and set password for first login on EC2
 Paste this script to your EC2 userdata during launch to enable password ssh for your first login. Change user and pass by changing lines under TODO in the below script.
 
 ```
