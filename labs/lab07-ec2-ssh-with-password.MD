@@ -32,7 +32,7 @@
     sudo service ssh restart
   ```
 
-5. Exit the SSH client, and then log in to test the password authentication. 
+5. Exit out of the EC2 session, and then log in to test the password authentication. 
 ```console
 ssh ec2-user@your-instance-up.address
 ```
