@@ -1,0 +1,19 @@
+Let's explain "Spot Requests" in AWS in a simple way:
+
+Imagine you're at a big ice cream shop, and they have a special deal where 
+you can buy ice cream at a lower price, but it's only available if they have extra ice cream left at the end of the day.
+
+So, you ask the ice cream seller, "Hey, if you have extra ice cream at the end of the day,
+can I get some at a discount?" They say yes. Now, you don't know exactly when you'll get your ice cream,
+but you know you'll get it when there's extra, and it'll be cheaper.
+
+In AWS (which is like a giant computer place on the internet), there are lots of powerful computers available.
+Sometimes, AWS has some extra computing power that's not being used by others at the moment. That's where "Spot Requests" come in.
+
+With Spot Requests, you can say to AWS, "When you have extra computing power available,
+let me use it, and I'll pay a lower price." AWS agrees, and when they have extra,
+they let you use it. It's like getting a good deal on ice cream when there's some left over at the end of the day.
+
+So, Spot Requests in AWS are a way to use their extra computing power at a lower price,
+but you might not know exactly when you'll get it. It's a bit like the ice cream deal at the shop—cheaper,
+but you have to wait for the extra.
