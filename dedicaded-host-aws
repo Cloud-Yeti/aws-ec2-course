@@ -1,0 +1,32 @@
+Explaining "Dedicated Hosts" in AWS to a kid:
+
+Imagine you have a big LEGO playroom with lots of different LEGO sets. 
+  You know how sometimes you want to play with one particular set, and you don't want
+  anyone else to use it? So, you create a special table just for that set,
+  and only you and your closest friends are allowed to play with those LEGOs on that table.
+
+In AWS (that's like a super-duper computer place on the internet),
+        there are lots of powerful computers that people can use to run their websites, 
+        apps, and games. Sometimes, people have very important and special things they
+        want to do on those computers, like running a super-secret project or a very special website.
+
+That's where "Dedicated Hosts" come in. It's a bit like having your own special
+        table for your LEGO set. With Dedicated Hosts, AWS gives you a whole
+        computer all to yourself. Nobody else is allowed to use it except you. 
+        You can run your important things on it, and you have full control.
+
+So, just like how you keep your special LEGO set on your dedicated table, 
+        in AWS, Dedicated Hosts let people keep their important computer
+        stuff on a computer that's dedicated just for them. 
+        It's like having a secret hideout in the big world of computers!
+##########
+Think of AWS like a big playground with many playground sets (computers).
+        Normally, lots of people can play on each set (computer),
+        but sometimes, some people need a whole playground set just for themselves.
+
+Dedicated Hosts in AWS are like having your own private playground set.
+        It's all yours, and nobody else can use it while you're playing there. 
+        This is great when you have really important games to play or special secrets to keep.
+
+So, Dedicated Hosts give you your very own playground set in AWS,
+        and you get to use it all by yourself for your important computer stuff.
