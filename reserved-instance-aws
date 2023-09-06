@@ -1,0 +1,19 @@
+Let's explain "Reserved Instances" in AWS in a simple way:
+
+Imagine you have a favorite toy that you love to play with every day.
+You know you'll keep playing with it for a long time because you really like it.
+
+Now, instead of just borrowing that toy from someone every day, you decide to make a special deal.
+You tell them, "Hey, I'll use this toy every day for a whole year, so can I pay you for it in advance?" 
+They agree, and you pay them upfront.
+
+Reserved Instances in AWS are a bit like that deal for your favorite toy.
+When people and businesses use computers and servers in the cloud (like Amazon's cloud,
+called AWS), they often know they'll need them for a long time, like a year or even more.
+Instead of paying for those computers every single day, they can make a special deal with AWS and pay upfront
+for a whole year or more. This way, they save a lot of money because AWS gives
+them a big discount for making that commitment.
+
+So, Reserved Instances are like a smart way for people and businesses to use computers in the cloud.
+They pay upfront and get a discount because they know they'll be using those computers for a long time,
+just like how you made a special deal for your favorite toy.
