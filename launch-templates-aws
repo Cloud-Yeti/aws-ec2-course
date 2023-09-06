@@ -1,0 +1,21 @@
+Let's explain "Launch Templates" in AWS in a simple way:
+
+Imagine you're a chef, and you often make different types of sandwiches.
+Each sandwich needs specific ingredients and instructions.
+Instead of writing down the recipe and gathering ingredients every time, you create a special template.
+This template has all the details for making a sandwich – what bread to use, what fillings to add, and how to assemble it.
+
+In AWS (a big computer place on the internet), people need to create virtual computers
+(called instances) for different purposes, like running websites or apps.
+Just like your sandwich recipes, they need specific instructions and settings every time they create an instance.
+
+That's where "Launch Templates" come in. AWS Launch Templates are like those sandwich
+templates but for creating virtual computers. Instead of setting up an instance from scratch every time,
+users can create a Launch Template that has all the instructions, settings, and configurations they need.
+
+So, when they want to create a new virtual computer (instance), they just use their Launch Template.
+It's like following a recipe to make a sandwich – they don't have to remember all the details;
+they just use the template, and AWS creates the instance with everything ready.
+
+In summary, AWS Launch Templates are like ready-to-use recipes for creating virtual computers,
+making it easier and faster to set up and run different kinds of computer tasks on AWS.
