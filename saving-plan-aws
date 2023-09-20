@@ -1,0 +1,19 @@
+Savings Plans allow you to easily reduce your bill by making a commitment to compute usage 
+(e.g. $10/hour) instead of making commitments to specific instance configurations or compute services. 
+Amazon Web Services offers two types of Savings Plans - Compute Savings Plans and EC2 Instance Savings Plans.
+
+
+# Compute Savings
+
+Plans are a way to save money on using certain Amazon Web Services (AWS), like EC2 instances, Fargate, and Lambda. 
+These plans give you more flexibility and can reduce your costs by up to 66%. They apply to all types of instances,
+regardless of size, region, or other factors. With Compute Savings Plans,
+you can save money and still use the AWS services you need.
+
+
+# EC2 Instance Savings Plans 
+
+provide the lowest prices, offering savings up to 72% in exchange 
+for commitment to usage of individual instance families in a region (e.g. M5 usage in N. Virginia).
+This automatically reduces your cost on the selected instance family in that region regardless of AZ, size, OS or tenancy.
+EC2 Instance Savings Plans give you the flexibility to change your usage between instances within a family in that region.
