@@ -1,0 +1,18 @@
+Let's explain "AMIs" (Amazon Machine Images) in AWS in a simple way:
+
+Imagine you're a magician, and you have a magic wand that can create your favorite toys instantly.
+These toys are ready to play with and have all the features and decorations you like.
+
+In AWS (a big computer place on the internet), people need virtual computers called instances for various tasks,
+just like you need toys to play with. Instead of starting from scratch and setting up these virtual
+computers every time, they can use something called "AMIs," which are like magic blueprints.
+
+AMIs are like your magic wand's instructions for creating toys.
+They contain all the details about what kind of computer it should be,
+which operating system it should have, and even the software that should be pre-installed.
+When people want to create a new virtual computer (instance) in AWS, they pick an AMI,
+and AWS uses that blueprint to make the instance. It's like creating a toy with your magic wand using a specific set of instructions.
+
+So, AMIs in AWS are like magical blueprints for creating virtual computers.
+They make it easy and fast to set up instances with all the features and settings people need for their work,
+just like your magic wand makes your favorite toys appear instantly.

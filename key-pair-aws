@@ -1,0 +1,26 @@
+In AWS, a key pair is a secure way to connect and access your instances.
+When you create an instance, you specify a key pair that consists of a public key and a private key.
+The public key is stored on the instance and is used to encrypt data, 
+while the private key is used to decrypt data when you access the instance.
+
+In AWS, a key pair is a secure way to connect and access your instances. When you create an instance, 
+you specify a key pair that consists of a public key and a private key. 
+The public key is stored on the instance and is used to encrypt data, 
+while the private key is used to decrypt data when you access the instance.
+
+You can create and manage key pairs in AWS using the EC2 console, 
+AWS CLI or SDKs. You can also use third-party tools to generate key pairs and then upload the public key to AWS.
+
+Key pairs are essential in securing your instances, as they allow only
+authorized users to access your instances. Without the private key, no one can access your instances.
+It is important to note that you should always keep your private key secure and never share it with others.
+
+When you want to communicate with an instance in AWS that has a key pair associated with it, 
+you need to use a Secure Shell (SSH) communication protocol. SSH is a cryptographic network
+protocol that provides a secure way to access network services over an unsecured network. 
+
+In summary, key pairs in AWS are used to establish a secure communication channel between you 
+and your instances using the SSH protocol. The secure communication channel
+enables you to remotely manage the instance securely, execute commands and transfer files.
+
+![](https://scripting4ever.wordpress.com/2020/11/15/automate-ssh-key-generation-and-ec2-deployment-using-terraform-in-windows-environment/)
